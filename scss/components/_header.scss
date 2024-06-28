@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+header #search {
+    border: 2px solid #ccc;
+    border-radius: 0.2rem;
+    padding: 20px;
+    width: 70%;
+}
