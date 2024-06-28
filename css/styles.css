@@ -1,1 +1,43 @@
-body{background-color:#fff;margin:0 auto;max-width:1024px;padding:0 50px}header{display:flex;justify-content:center;padding:20px 0}header #search{border:2px solid #ccc;border-radius:0.2rem;padding:20px;width:70%}
+/* line 1, ../../../OneDrive/Documents/FEWD/P5/FEWD_P5/scss/base/_base.scss */
+* {
+  font-family: sans-serif;
+}
+
+/* line 5, ../../../OneDrive/Documents/FEWD/P5/FEWD_P5/scss/base/_base.scss */
+body {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 50px;
+}
+
+/* line 1, ../../../OneDrive/Documents/FEWD/P5/FEWD_P5/scss/components/_header.scss */
+header {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+/* line 7, ../../../OneDrive/Documents/FEWD/P5/FEWD_P5/scss/components/_header.scss */
+header #search {
+  border: 2px solid #ccc;
+  border-radius: 0.2rem;
+  padding: 20px;
+  width: 70%;
+}
+
+/* line 1, ../../../OneDrive/Documents/FEWD/P5/FEWD_P5/scss/components/_gallery.scss */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+/* line 8, ../../../OneDrive/Documents/FEWD/P5/FEWD_P5/scss/components/_gallery.scss */
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
